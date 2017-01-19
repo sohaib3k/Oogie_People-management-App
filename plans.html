@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="bootstrap.min.css">
+<script src="jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+
+<title>Oogie | Plans</title>
+
+<link rel="stylesheet" type="text/css" href="oogie_Plan.css" />
+
+
+</head>
+
+<body>
+<div id="fullscreen_bg" class="fullscreen_bg"/>
+<div class="container-full" id="topThing">
+<img src="images/logo.png" height="70" alt="oogie_Logo" style="padding: 6px 6px">
+<button class="btn btn-primary whiteSegoe" type="button" style="display:inline; text-align:right; float:right; font-size:26px; margin:10px; background-color:#C30; padding-top:0px;">Browse Plans</button> 
+</div>
+
+<div class="container" id="mainCon" style="margin-top:150px;">
+	<div class="row">
+	<div id="custom-search-input">
+    <form action="user" method="post">
+	<div class="input-group col-md-12">
+        <input type="text" class="search-query form-control" id="searchPlan" name="searchPlan" placeholder="Search for Plans" />
+        <span class="input-group-btn">
+        <button class="btn btn-danger" id="searchButton" type="submit">
+        <img src="images/SearchButton.png" width="24" height="24" alt="Search"></button>
+        </span>
+	</div>
+    </form>
+    <p class="whiteSegoe" style="font-size:18px"><br><br>...Or make a new one</p>
+    <center><a href = "makeEvent.html" ><button class="btn btn-primary" id="newEventButton" type="button">Make a new Plan</button></a></center>
+    
+    
+	</div>
+	</div>
+</div>
+
+
+</body>
+
+</html>
